@@ -515,7 +515,8 @@ body {
 
 						<p class="text-danger">
 
-							<b>Pamiętaj</b>, aby każdą kolejną komende oddzielić średnikiem (<b>;</b>)!
+							<b>Pamiętaj</b>, aby każdą kolejną komende oddzielić średnikiem (<b>;</b>)!<br/>
+						<p>Zmienna {GRACZA} umożliwia użycie nicku gracza (np. say Gracza {GRACZ} zakupił VIP)</p>
 
 						</p>
 

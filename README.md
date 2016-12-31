@@ -11,3 +11,7 @@ Aby edytować zakładki w nawigacji, otwórz plik <b>"index.php" (linijka 21)</b
 
 Zapraszam do pobierania. Sklep powinien działać poprawnie! Każdy błąd proszę zgłosić na PW MPCForum.
 Link do profilu: http://www.mpcforum.pl/user/1206850-marosking/
+
+Wykorzystywane są darmowe i publiczne skrypty:
+<b>MCServerStatus</b>: https://github.com/mattvh/MCServerStatus
+<b>PHP-Minecraft-Rcon</b>: https://github.com/thedudeguy/PHP-Minecraft-Rcon

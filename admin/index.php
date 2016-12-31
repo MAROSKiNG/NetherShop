@@ -1,16 +1,16 @@
-﻿<?php
+<?php
 session_start();
 include_once('header_admin.php');
 
 $info = '';
 if(isset($_POST['login_button'])) {
 	if((!empty($_POST['adminLogin'])) && (!empty($_POST['adminPassword']))) {
-		$login = mysqli_real_escape_string($database, $_POST['adminLogin']);
-		$password = mysqli_real_escape_string($database, $_POST['adminPassword']);
+		$login = $_POST['adminLogin'];
+		$password = $_POST['adminPassword'];
 		
-		$admin = $database->query("SELECT admin_login, admin_password FROM `admin_accounts` WHERE admin_login=$login, admin_password=$password");
+		$admin = $database->query("SELECT * FROM `admin_accounts` WHERE admin_login='$login' AND admin_password='$password'");
 		
-		if($admin = 1) {
+		if($admin->num_rows == 1) {
 			$_SESSION['adminUser'] = $login;
 			header("Location: dashboard.php");
 		} else {

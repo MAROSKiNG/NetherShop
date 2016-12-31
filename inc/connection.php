@@ -2,13 +2,13 @@
 
 
 
-	$host = "localhost";
+	$host = "host bazy danych";
 
-	$user = "nethershop_shop";
+	$user = "uzytkownik";
 
-	$pass = "Zygz@k95";
+	$pass = "haslo";
 
-	$base = "nethershop_shop";
+	$base = "baza danych";
 
 
 
